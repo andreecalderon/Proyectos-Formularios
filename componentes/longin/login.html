@@ -8,7 +8,37 @@
     <link rel="stylesheet" href="../../config/config.css">
 </head>
 <body>
-    <h2>login</h2>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="brand-logo">🪷 Housy</div>
+            <h2>Welcome Back, Please log in to your account.</h2>
+            <div class="social-login-buttons">
+                <button class="social-button facebook-button">f</button>
+                <button class="social-button x-button">X</button>
+            </div>
+            <p>- OR -</p>
+            <form action="#">
+                <label for="email-address">Email Address:</label>
+                <input type="email" id="email-address" name="email" value="" required>
+                <label for="user-password">Password:</label>
+                <input type="password" id="user-password" name="password" required>
+                <div class="remember-me-container">
+                    <input type="checkbox" id="remember-me-checkbox" name="remember-me">
+                    <label for="remember-me-checkbox">Remember me</label>
+                </div>
+                <a href="#" class="forgot-password-link">Forgot password</a>
+                <div class="form-buttons-container">
+                    <button type="submit" class="login-button">Login</button>
+                    <button type="button" class="sign-up-button">Sign up</button>
+                </div>
+            </form>
+        </div>
+        <div class="image-container">
+            <img src="https://static.wikia.nocookie.net/dragonball/images/a/a9/SSGSSE_Artwork_Dokkan.png/revision/latest?cb=20190711225823&path-prefix=es" alt="Dragon Ball Artwork">
+        </div>
+    </div>
+    
+
    <script src="login.js"></script>
 </body>
 </html>
